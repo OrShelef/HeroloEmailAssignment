@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HeroloEmailAssignment/static/css/main.39bfaff9.chunk.css",
+    "main.js": "/HeroloEmailAssignment/static/js/main.3103b6c9.chunk.js",
+    "main.js.map": "/HeroloEmailAssignment/static/js/main.3103b6c9.chunk.js.map",
+    "runtime-main.js": "/HeroloEmailAssignment/static/js/runtime-main.4f77a0f1.js",
+    "runtime-main.js.map": "/HeroloEmailAssignment/static/js/runtime-main.4f77a0f1.js.map",
+    "static/js/2.1e50f897.chunk.js": "/HeroloEmailAssignment/static/js/2.1e50f897.chunk.js",
+    "static/js/2.1e50f897.chunk.js.map": "/HeroloEmailAssignment/static/js/2.1e50f897.chunk.js.map",
+    "index.html": "/HeroloEmailAssignment/index.html",
+    "precache-manifest.c2efed029a8a4030b526a1cbbd2996c1.js": "/HeroloEmailAssignment/precache-manifest.c2efed029a8a4030b526a1cbbd2996c1.js",
+    "service-worker.js": "/HeroloEmailAssignment/service-worker.js",
+    "static/css/main.39bfaff9.chunk.css.map": "/HeroloEmailAssignment/static/css/main.39bfaff9.chunk.css.map",
+    "static/js/2.1e50f897.chunk.js.LICENSE.txt": "/HeroloEmailAssignment/static/js/2.1e50f897.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/HeroloEmailAssignment/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f77a0f1.js",
+    "static/js/2.1e50f897.chunk.js",
+    "static/css/main.39bfaff9.chunk.css",
+    "static/js/main.3103b6c9.chunk.js"
+  ]
+}
