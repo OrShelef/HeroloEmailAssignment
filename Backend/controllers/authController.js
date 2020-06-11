@@ -5,7 +5,7 @@ const jwt=require('jsonwebtoken');
 exports.Login=async (req,res,next) => {
 
 
-    json.readFile('../public/Users.json',(err,data)=>{
+    json.readFile('./Users.json',(err,data)=>{
         if(err) return res.status(404).json({status:'fail',message:err});
 
         const user=data.filter(user=>user.id==req.body.id);
