@@ -1,0 +1,45 @@
+
+
+.root{
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+li.menuItem{
+    padding: 1rem;
+}
+
+li.menuItem>div{
+    margin-right:1.3rem;
+}
+
+.select>div
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.select>div>div{
+    margin-right: 1rem;
+}
+
+.root>img{
+    object-fit: cover;
+    width: 8rem;
+}
+
+.root button{
+    padding: 1rem 5rem;
+    border-radius: 100rem;
+}
