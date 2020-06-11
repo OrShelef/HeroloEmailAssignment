@@ -9,7 +9,7 @@ const authRouter=require('./routes/authRoute');
 const messageRouter=require('./routes/messageRoute');
 const {promisify} =require('util');
 const jwt=require('jsonwebtoken');
-const port = 3333;
+const port = process.env.PORT ||  3333;
 
 devenv.config({path:'./config.env'});
 app.use(cors());
