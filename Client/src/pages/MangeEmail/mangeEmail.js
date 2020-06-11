@@ -18,7 +18,7 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 import AddIcon from '@material-ui/icons/Add';
 import {useHistory} from 'react-router-dom';
 import DeleteDialog from '../../components/DeleteDialog/deleteDialog';
-import axios from 'axios';
+import axios from '../../axios';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -61,7 +61,7 @@ const MangeEmailPage = () => {
     const [users, setUsers] = useState([]);
     const getMessages=()=>{
       const token=localStorage.getItem('token');
-      axios.get(`http://localhost:3333/Messages`,{headers:{ Authorization: `Bearer ${token}`}}).then(res=>
+      axios.get(`/Messages`,{headers:{ Authorization: `Bearer ${token}`}}).then(res=>
       {
         const {status,messages}=res.data;
         if(status=='success')
@@ -75,7 +75,7 @@ const MangeEmailPage = () => {
       });
     }
     useEffect(() => {
-      axios.get('http://localhost:3333/Auth/')
+      axios.get('/Auth/')
       .then(result=>{
           const {status,users}=result.data;
           if(status=='success'){
@@ -113,7 +113,7 @@ const MangeEmailPage = () => {
 
     const onSendComment=()=>{
       const token=localStorage.getItem('token')
-      axios.post(`http://localhost:3333/Messages`,{message:comment,subject:currentMessage.subject,to:currentMessage.senderID,id:Date.now(),senderID:loggedUser.id,timeStamp:
+      axios.post(`/Messages`,{message:comment,subject:currentMessage.subject,to:currentMessage.senderID,id:Date.now(),senderID:loggedUser.id,timeStamp:
       new Intl.DateTimeFormat("en-GB", {year: "numeric",month: "long",day: "2-digit" }).format(Date.now())},{headers:{ Authorization: `Bearer ${token}`}})
       .then(res=>{
             console.log(res);

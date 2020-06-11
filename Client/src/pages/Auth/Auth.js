@@ -3,7 +3,7 @@
 import React, { useEffect,useState } from 'react';
 import { Paper, Button, Avatar } from '@material-ui/core';
 import classes from './Auth.module.css';
-import axios from 'axios';
+import axios from '../../axios';
 import {useHistory} from 'react-router-dom';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -15,7 +15,7 @@ const Auth = () =>
     const [users, setUsers] = useState([]);
     const [selectedUser, setSelectedUser] = useState(-1);
     useEffect(() => {
-        axios.get('http://localhost:3333/Auth/')
+        axios.get('/Auth/')
         .then(result=>{
             
             const {status,users}=result.data;
@@ -36,7 +36,7 @@ const Auth = () =>
       };
     const OnLogin=()=>{
 
-        axios.post('http://localhost:3333/Auth/Login',{id:selectedUser}).then(res=>{
+        axios.post('/Auth/Login',{id:selectedUser}).then(res=>{
             const {token,status,user}=res.data;
             if(status=='success'){
                 localStorage.setItem('token',token);

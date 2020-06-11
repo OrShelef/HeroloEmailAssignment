@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import {useHistory} from 'react-router-dom';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import SubjectIcon from '@material-ui/icons/Subject';
-import axios from 'axios';
+import axios from '../../axios';
 import { useSnackbar } from 'material-ui-snackbar-provider';
 const ComposeEmailPage = (props) => 
 {
@@ -21,7 +21,7 @@ const ComposeEmailPage = (props) =>
     { 
         const token=localStorage.getItem('token');
         const senderID=JSON.parse(localStorage.getItem('currentUser')).id;
-        axios.post(`http://localhost:3333/Messages`,{...formData,id:Date.now(),senderID:senderID,timeStamp:
+        axios.post(`/Messages`,{...formData,id:Date.now(),senderID:senderID,timeStamp:
         new Intl.DateTimeFormat("en-GB", {year: "numeric",month: "long",day: "2-digit" 
           }).format(Date.now())},{headers:{ Authorization: `Bearer ${token}`}}).then(res=>{
               console.log(res);
