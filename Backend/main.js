@@ -11,6 +11,8 @@ const {promisify} =require('util');
 const jwt=require('jsonwebtoken');
 const port = process.env.PORT ||  3333;
 
+app.use(express.static('public'))
+app.use(express.static('Backend'))
 devenv.config({path:'./config.env'});
 app.use(cors());
 app.use(bodyParser.json());
