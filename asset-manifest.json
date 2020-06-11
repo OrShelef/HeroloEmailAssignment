@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/HeroloEmailAssignment/static/css/main.39bfaff9.chunk.css",
-    "main.js": "/HeroloEmailAssignment/static/js/main.4a833216.chunk.js",
-    "main.js.map": "/HeroloEmailAssignment/static/js/main.4a833216.chunk.js.map",
-    "runtime-main.js": "/HeroloEmailAssignment/static/js/runtime-main.4f77a0f1.js",
-    "runtime-main.js.map": "/HeroloEmailAssignment/static/js/runtime-main.4f77a0f1.js.map",
-    "static/js/2.ebe8daa5.chunk.js": "/HeroloEmailAssignment/static/js/2.ebe8daa5.chunk.js",
-    "static/js/2.ebe8daa5.chunk.js.map": "/HeroloEmailAssignment/static/js/2.ebe8daa5.chunk.js.map",
-    "index.html": "/HeroloEmailAssignment/index.html",
-    "precache-manifest.6e98b8917108eb6ac1780e8e4cdb0ee5.js": "/HeroloEmailAssignment/precache-manifest.6e98b8917108eb6ac1780e8e4cdb0ee5.js",
-    "service-worker.js": "/HeroloEmailAssignment/service-worker.js",
-    "static/css/main.39bfaff9.chunk.css.map": "/HeroloEmailAssignment/static/css/main.39bfaff9.chunk.css.map",
-    "static/js/2.ebe8daa5.chunk.js.LICENSE.txt": "/HeroloEmailAssignment/static/js/2.ebe8daa5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/HeroloEmailAssignment/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Or-Shelef-10-6-2020/static/css/main.39bfaff9.chunk.css",
+    "main.js": "/Or-Shelef-10-6-2020/static/js/main.a8d15ce9.chunk.js",
+    "main.js.map": "/Or-Shelef-10-6-2020/static/js/main.a8d15ce9.chunk.js.map",
+    "runtime-main.js": "/Or-Shelef-10-6-2020/static/js/runtime-main.3d7cdcc5.js",
+    "runtime-main.js.map": "/Or-Shelef-10-6-2020/static/js/runtime-main.3d7cdcc5.js.map",
+    "static/js/2.ebe8daa5.chunk.js": "/Or-Shelef-10-6-2020/static/js/2.ebe8daa5.chunk.js",
+    "static/js/2.ebe8daa5.chunk.js.map": "/Or-Shelef-10-6-2020/static/js/2.ebe8daa5.chunk.js.map",
+    "index.html": "/Or-Shelef-10-6-2020/index.html",
+    "precache-manifest.812b1df59d9e379a1938a6643a3eebf7.js": "/Or-Shelef-10-6-2020/precache-manifest.812b1df59d9e379a1938a6643a3eebf7.js",
+    "service-worker.js": "/Or-Shelef-10-6-2020/service-worker.js",
+    "static/css/main.39bfaff9.chunk.css.map": "/Or-Shelef-10-6-2020/static/css/main.39bfaff9.chunk.css.map",
+    "static/js/2.ebe8daa5.chunk.js.LICENSE.txt": "/Or-Shelef-10-6-2020/static/js/2.ebe8daa5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Or-Shelef-10-6-2020/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f77a0f1.js",
+    "static/js/runtime-main.3d7cdcc5.js",
     "static/js/2.ebe8daa5.chunk.js",
     "static/css/main.39bfaff9.chunk.css",
-    "static/js/main.4a833216.chunk.js"
+    "static/js/main.a8d15ce9.chunk.js"
   ]
 }
